@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>KALKULATOR</title>
+        <link href="calculator.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="calculator.js"></script>
+	
+	
+</head> 
+
+<body> 
+    <h1>KALKULATOR</h1>
+    <!-- kreiranje tabele-->
+	<table border="1"> 
+		<tr> 
+			<td colspan="4"><input type="text" id="rezultat"/></td> 
+		
+		</tr> 
+		<tr> 
+			<!-- Kreiramo dugmad i svakom dodjeljujemo vrijednost -->
+			<!-- klik("7") ce pozvati funkciju klik iz datoteke calculator.js i prikazati vrijednost-->
+			<td><input type="button" value="7" onclick="klik('7')"/> </td> 
+			<td><input type="button" value="8" onclick="klik('8')"/> </td> 
+            <td><input type="button" value="9" onclick="klik('9')"/> </td> 
+			<td><input type="button" value="/" onclick="klik('/')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="klik('4')"/> </td> 
+			<td><input type="button" value="5" onclick="klik('5')"/> </td> 
+			<td><input type="button" value="6" onclick="klik('6')"/> </td> 
+			<td><input type="button" value="*" onclick="klik('*')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="1" onclick="klik('1')"/> </td> 
+			<td><input type="button" value="2" onclick="klik('2')"/> </td> 
+			<td><input type="button" value="3" onclick="klik('3')"/> </td> 
+			<td><input type="button" value="-" onclick="klik('-')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="klik('.')"/> </td> 
+			<td><input type="button" value="0" onclick="klik('0')"/> </td> 
+			<!-- Racunaj() ce pozvati funkciju racunaj iz datoteke calculator.js i dodijeliti vrijednost -->
+			<td><input type="button" value="=" onclick="racunaj()"/> </td> 
+			<td><input type="button" value="+" onclick="klik('+')"/> </td> 
+		</tr> 
+	</table> 
+</body> 
+</html> 

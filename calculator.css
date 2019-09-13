@@ -1,0 +1,52 @@
+
+body, html {
+	background: rgb(253, 166, 227);
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+ color: black;
+ text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(216, 216, 211);
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+}
+
+input[type=text] {
+    width: 300px;
+    height: 100px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: #ffffff;
+    text-align: right;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0 25px;
+}
+
+input[type=button] {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 0;
+    margin: 4px;
+    box-sizing: border-box;
+    background: #696b6e;
+    border: none;
+    border-radius: 15%;
+    font-size: 30px;
+    line-height: 30px;
+    
+}   
+      
